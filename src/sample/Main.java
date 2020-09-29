@@ -7,6 +7,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -20,10 +23,12 @@ public class Main extends Application {
         root.setHgap(10);
 
         Label greeting = new Label("Welcome to Halloween!");
+        greeting.setTextFill(Color.DARKORANGE);
+        greeting.setFont(Font.font("Times New Roman", FontWeight.BOLD, 60));
         root.getChildren().add(greeting);
 
-        primaryStage.setTitle("Hello JavaFX");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("It's almost Halloween!");
+        primaryStage.setScene(new Scene(root, 700, 275));
         primaryStage.show();
 
     }
