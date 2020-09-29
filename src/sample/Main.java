@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -17,6 +18,10 @@ public class Main extends Application {
         root.setAlignment(Pos.CENTER);
         root.setVgap(10);
         root.setHgap(10);
+
+        Label greeting = new Label("Welcome to Halloween!");
+        root.getChildren().add(greeting);
+
         primaryStage.setTitle("Hello JavaFX");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
