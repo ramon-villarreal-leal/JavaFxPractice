@@ -16,16 +16,16 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-//        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        GridPane root = new GridPane();
-        root.setAlignment(Pos.CENTER);
-        root.setVgap(10);
-        root.setHgap(10);
-
-        Label greeting = new Label("Welcome to Halloween!");
-        greeting.setTextFill(Color.DARKORANGE);
-        greeting.setFont(Font.font("Times New Roman", FontWeight.BOLD, 60));
-        root.getChildren().add(greeting);
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+//        GridPane root = new GridPane();
+//        root.setAlignment(Pos.CENTER);
+//        root.setVgap(10);
+//        root.setHgap(10);
+//
+//        Label greeting = new Label("Welcome to Halloween!");
+//        greeting.setTextFill(Color.DARKORANGE);
+//        greeting.setFont(Font.font("Times New Roman", FontWeight.BOLD, 60));
+//        root.getChildren().add(greeting);
 
         primaryStage.setTitle("It's almost Halloween!");
         primaryStage.setScene(new Scene(root, 700, 275));
