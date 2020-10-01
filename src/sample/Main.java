@@ -16,7 +16,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 //        GridPane root = new GridPane();
 //        root.setAlignment(Pos.CENTER);
 //        root.setVgap(10);
@@ -26,9 +25,9 @@ public class Main extends Application {
 //        greeting.setTextFill(Color.DARKORANGE);
 //        greeting.setFont(Font.font("Times New Roman", FontWeight.BOLD, 60));
 //        root.getChildren().add(greeting);
-
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("It's almost Halloween!");
-        primaryStage.setScene(new Scene(root, 700, 275));
+        primaryStage.setScene(new Scene(root, 500, 275));
         primaryStage.show();
 
     }
