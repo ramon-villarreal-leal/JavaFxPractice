@@ -12,9 +12,9 @@
 <!--        </font>-->
 
         <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-        <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-        <Button text="Button Three" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
         <Button text="Button Four" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-        <Button text="Super Happy Halloween Button" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <Button text="Super Happy Halloween Button" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
 <!--    </Label>-->
 </GridPane>
