@@ -6,14 +6,15 @@
 <?import javafx.scene.text.Font?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-    <Label text="Welcome to Halloween" textFill="orange">
-        <font>
-            <Font name="Times New Roman bold" size="70"/>
-        </font>
+<!--    <Label text="Welcome to Halloween" textFill="orange">-->
+<!--        <font>-->
+<!--            <Font name="Times New Roman bold" size="70"/>-->
+<!--        </font>-->
+
         <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
         <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
         <Button text="Button Three" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
         <Button text="Button Four" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
         <Button text="Super Happy Halloween Button" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-    </Label>
+<!--    </Label>-->
 </GridPane>
