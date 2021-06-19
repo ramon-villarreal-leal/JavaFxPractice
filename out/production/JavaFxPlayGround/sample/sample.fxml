@@ -5,7 +5,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.text.Font?>
 <GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="top-center" hgap="10" vgap="10"
+          xmlns:fx="http://javafx.com/fxml" alignment="top_center" hgap="10" vgap="10"
 
                 gridLinesVisible="true">
 <!--    <Label text="Welcome to Halloween" textFill="orange">-->
@@ -20,6 +20,7 @@
         <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
         <Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
         <Button text="Button Four" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <GridPane.columnSpan="2"/>
         <Button text="Super Happy Halloween Button" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
 <!--    </Label>-->
 </GridPane>
